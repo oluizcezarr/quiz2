@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Doce Quiz!</title>
+    <meta name="description" content="Um quiz para adoçar o seu dia!" />
+    <link rel="stylesheet" type="text/CSS" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Quiz para amantes de doces!</h1>
+      <p>Teste seu conhecimento em doces.</p>
+    </header>
+    <main>
+      <section>
+        <h2>Sobre esse quiz</h2>
+        <p>
+          Explore o universo dos doces neste quiz interativo e divertido!
+          Responda perguntas em diversos formatos, incluindo imagens, listas e
+          até uma senha secreta. Teste seu conhecimento e sua criatividade com
+          muito sabor!
+        </p>
+      </section>
+      <section>
+        <h2>
+          1 . Qual desses é um doce tradicional brasileiro feito com amendoim?
+        </h2>
+        <form>
+          <input type="radio" value="Brigadeiro" id="p1a" name="pergunta1" />
+          <label for="p1a">Brigadeiro</label><br />
+
+          <input type="radio" value="Paçoca" id="p1b" name="pergunta2" />
+          <label for="p1b">Paçoca</label><br />
+
+          <input type="radio" value="Pudim" id="p1c" name="pergunta3" />
+          <label for="p1c">Pudim</label><br />
+
+          <input type="radio" value="Quindim" id="p1d" name="pergunta4" />
+          <label for="p1d">Quindim</label><br />
+        </form>
+      </section>
+      <section>
+        <h2>
+          2. Na sua opinião, por que os doces ocupam um papel tão importante em
+          celebrações e festas?
+        </h2>
+        <form>
+          <input
+            type="text"
+            id="p2"
+            name="pergunta2"
+            placeholder="Digite sua resposta..."
+          />
+        </form>
+      </section>
+      <section>
+        <h2>
+          3. Qual é o nome do doce feito de leite condensado, margarina e
+          chocolate em pó, enrolado com chocolate granulado?
+        </h2>
+        <form>
+          <input
+            type="password"
+            id="p3"
+            name="pergunta3"
+            placeholder="Digite sua resposta..."
+          />
+        </form>
+      </section>
+      <section>
+        <h2>
+          4.Selecione no calendário abaixo a data em que é comemorado o Dia do
+          Chocolate no Brasil.
+        </h2>
+        <form>
+          <input type="date" id="p4" name="pergunta4" />
+        </form>
+      </section>
+      <section>
+        <h2>5. Quais dos doces abaixo são feitos com coco?</h2>
+        <form>
+          <input type="checkbox" value="Beijinho" id="p5a" name="pergunta1" />
+          <label for="p5a">Beijinho</label><br />
+
+          <input type="checkbox" value="Maria-mole" id="p5b" name="pergunta2" />
+          <label for="p5b">Maria-mole</label><br />
+
+          <input type="checkbox" value="Cajuzinho" id="p5c" name="pergunta3" />
+          <label for="p5c">Cajuzinho</label><br />
+
+          <input type="checkbox" value="Cocada" id="p5d" name="pergunta4" />
+          <label for="p5d">Cocada</label><br />
+
+          <input
+            type="checkbox"
+            value="Bala de goma"
+            id="p5d"
+            name="pergunta5"
+          />
+          <label for="p5e">Bala de goma</label><br />
+        </form>
+      </section>
+      <section>
+        <h2>
+          6. Envie uma foto de um doce que você mesmo(a) fez ou que mais gosta
+          de comer. Pode ser uma imagem tirada por você ou da internet.
+        </h2>
+        <form>
+          <input type="file" id="p6" name="pergunta6" />
+        </form>
+      </section>
+      <section>
+        <h2>7. Qual é o seu tipo favorito de doce?</h2>
+        <p>Selecione uma opção da lista:</p>
+        <form>
+          <select name="pergunta7" id="p7">
+            <option value="Chocolate">Chocolate</option>
+            <option value="Balas">Balas</option>
+            <option value="Doces de festa">Doces de festa</option>
+            <option value="Doces caseiros">Doces caseiros</option>
+            <option value="Doces de frutas">Doces de frutas</option>
+          </select>
+        </form>
+      </section>
+      <section>
+        <h2>
+          8. Observe a imagem do doce abaixo e escreva uma descrição detalhada:
+          ingredientes aparentes, textura, apresentação e o que você imagina
+          sobre o sabor.
+        </h2>
+        <figure>
+          <img src="img/brigadeiro.webp" width="400px" /><br />
+          <figcaption>Imagem: Doce Brasileiro</figcaption>
+        </figure>
+        <input
+          type="text"
+          id="p8"
+          name="pergunta8"
+          placeholder="Descreva a imagem..."
+        />
+      </section>
+      <section>
+        <h2>Tabela de Pontuação</h2>
+        <table border="1">
+          <thead>
+            <tr>
+              <th>Pontuação</th>
+              <th>Avaliação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>0-2</td>
+              <td>Não Desista! Cada erro é uma oportunidade de melhorar!</td>
+            </tr>
+            <tr>
+              <td>3-4</td>
+              <td>Você precisa melhorar! Mas esta no caminho certo</td>
+            </tr>
+            <tr>
+              <td>5-7</td>
+              <td>Você é bom com doces! Mas não é especialista</td>
+            </tr>
+            <tr>
+              <td>8</td>
+              <td>Perfeito! Você é uma formiga humana!</td>
+            </tr>
+          </tbody>
+          <tfoot>
+            <tr>
+              <td colspan="2">Boa sorte na proxima!</td>
+            </tr>
+          </tfoot>
+        </table>
+      </section>
+      <section>
+        <h2>Gabarito das perguntas!</h2>
+        <details>
+          <summary>Clique aqui! Para ver as respostas do Quiz.</summary>
+          <ol>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+            <li>Paçoca</li>
+          </ol>
+        </details>
+      </section>
+    </main>
+    <footer>
+
+      <p>Quiz feito por: Luiz Cezar O mais legal que tem.</p>
+      <p>Para conhecer mais sobre mim <a href="sobremim.html" target="_blank">Clique aqui</a></p>
+
+    </footer>
+  </body>
+</html>

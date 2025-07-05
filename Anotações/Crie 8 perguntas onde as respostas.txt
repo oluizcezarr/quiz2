@@ -1,0 +1,11 @@
+Crie 8 perguntas onde as respostas precisam ser da seguinte forma:
+1a - Alternativas
+2a - Dissertativa
+3a - Palavra secreta/senha
+4a - Calendário
+5a - Múltipla escolha
+6a - Anexar arquivo
+7a - escolher opção da lista
+8a - Analisar imagem e descrever ela
+
+No tema:
